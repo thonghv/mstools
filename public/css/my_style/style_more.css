@@ -1,0 +1,577 @@
+.hotline_number {
+    color: #009dcc;
+}
+
+.img_hotline_number {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: -8px !important;
+    margin-left: 6px !important;
+}
+
+.img_login {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 0px !important;
+}
+
+.fa {
+    display: inline !important;
+}
+
+/*Toostrip ----*/
+.wrappermenu {
+
+ 
+}
+
+.wrappermenu .tooltipmenu {
+  background: #FFF;
+  bottom: 100%;
+  color: #fff;
+  display: block;
+  margin: -100px -75px -633px 0px;
+  opacity: 0;
+  border:1px solid #ddd;
+  pointer-events: none;
+  position: absolute;
+  z-index:9999999;
+  width: 224px;
+  height:500px;
+  -webkit-transform: translateY(10px);
+     -moz-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+       -o-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: all .25s ease-out;
+     -moz-transition: all .25s ease-out;
+      -ms-transition: all .25s ease-out;
+       -o-transition: all .25s ease-out;
+          transition: all .25s ease-out;
+  -webkit-box-shadow: 106px 106px 106px rgba(0, 0, 0, 0.28);
+     -moz-box-shadow: 106px 106px 106px rgba(0, 0, 0, 0.28);
+      -ms-box-shadow: 106px 106px 106px rgba(0, 0, 0, 0.28);
+       -o-box-shadow: 106px 106px 106px rgba(0, 0, 0, 0.28);
+          box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+}
+
+/* This bridges the gap so you can mouse into the tooltipmenu without it disappearing */
+.wrappermenu .tooltipmenu:before {
+  bottom: -20px;
+  content: " ";
+  display: block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}  
+
+/* CSS Triangles - see Trevor's post */
+.wrappermenu .tooltipmenu:after {
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-bottom: solid #FFF 10px;
+  bottom: 213px;
+  content: " ";
+  height: 0;
+  left: 20px;
+  margin-left: -13px;
+  position: absolute;
+  width: 0;
+}
+  
+.wrappermenu:hover .tooltipmenu {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translateY(0px);
+     -moz-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+       -o-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+/* IE can just show/hide with no transition */
+.lte8 .wrappermenu .tooltipmenu {
+  display: none;
+}
+
+.lte8 .wrappermenu:hover .tooltipmenu {
+  display: block;
+}
+
+button.form-button-send {
+    background: #32befb;
+    background: -moz-linear-gradient(top, #32befb 0%, #19a5e1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #32befb), color-stop(100%, #19a5e1));
+    background: -webkit-linear-gradient(top, #32befb 0%, #19a5e1 100%);
+    background: -o-linear-gradient(top, #32befb 0%, #19a5e1 100%);
+    background: -ms-linear-gradient(top, #32befb 0%, #19a5e1 100%);
+    background: linear-gradient(to bottom, #32befb 0%, #19a5e1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#32befb', endColorstr='#19a5e1', GradientType=0);
+    border: none!important;
+    box-shadow: 0 -2px 0 #0788bf inset;
+    padding: 6px 14px;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    line-height: 1.6;
+}
+
+.caption_thongtindanhgia_book {
+    width: 920px;
+    display: block;
+    height: 38px;
+    border-width: 2px;
+    border-color: #dddddd;
+    margin-top: 15px;
+}
+.title_goiy_book {
+    color: #333333;
+    float: left;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.noidungdanhgia {
+    height: 150px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+}
+
+.blockone_nddanhgia {
+    width: 220px;
+    height: 130px;
+    border-right: 1px solid #ddd;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+.danhgia {
+    display: block;
+    margin-top: 5px;
+}
+
+.blocktwo_nddanhgia {
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    display: block;
+}
+
+.blocktwo_nddanhgia {
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    display: block;
+}
+
+.progress_my {
+    display: block;
+    width: 135px !important;
+    height: 17px;
+    margin: 0;
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    float: left;
+    margin-left: 10px;
+}
+
+.block_vietnhanxet_book_one {
+    width: 520px;
+    min-height: 340px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#inputtitle {
+    margin-left: 0px;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 12px;
+    line-height: 1.428571429 !important;;
+    color: #555;
+    vertical-align: middle !important;;
+    background-color: #fff !important;;
+    background-image: none !important;;
+    border: 1px solid #ddd;
+    border-radius: 3px !important;; 
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;;
+}
+
+textarea#ReviewTextArea {
+    margin-top: 10px;
+    width: 705px!important;
+    height: 100px !important;
+     border: 1px solid #ddd;
+    -webkit-border-radius: 3px !important;;
+    -moz-border-radius: 3px !important;;
+    border-radius: 3px;
+    line-height: 20px;
+    padding: 6px;
+    color: #555;
+    font-size: 12px;
+}
+
+.wrapper {
+
+}
+
+.wrapper .tooltip {
+  background: #FFF;
+  bottom: 100%;
+  color: #444444;
+  display: block;
+  margin: 0px 0px -144px 0px;
+  opacity: 0;
+  border:1px solid #ddd;
+  border-top:3px solid #e74c3c;
+  border-radius:4px;
+  line-height: none !important;
+  pointer-events: none;
+  /*padding-top: 75px;*/
+  position: absolute;
+  z-index:9999999 !important;
+  width: 200px;
+  -webkit-transform: translateY(10px);
+     -moz-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+       -o-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: all .25s ease-out;
+     -moz-transition: all .25s ease-out;
+      -ms-transition: all .25s ease-out;
+       -o-transition: all .25s ease-out;
+          transition: all .25s ease-out;
+  -webkit-box-shadow: 106px 106px 106px rgba(0, 0, 0, 0.28);
+     -moz-box-shadow: 106px 106px 106px rgba(0, 0, 0, 0.28);
+      -ms-box-shadow: 106px 106px 106px rgba(0, 0, 0, 0.28);
+       -o-box-shadow: 106px 106px 106px rgba(0, 0, 0, 0.28);
+          box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+}
+
+/* This bridges the gap so you can mouse into the tooltip without it disappearing */
+.wrapper .tooltip:before {
+  bottom: -20px;
+  content: " ";
+  display: block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index:9999999 !important;
+}  
+
+/* CSS Triangles - see Trevor's post */
+.wrapper .tooltip:after {
+  border-left: solid transparent 8px;
+  border-right: solid transparent 8px;
+  border-bottom: solid #e74c3c 8px;
+  bottom: 105px;
+  content: " ";
+  height: 0;
+  left: 20px;
+  margin-left: -13px;
+  position: absolute;
+  width: 0;
+  z-index:9999999 !important;
+}
+  
+.wrapper:hover .tooltip {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translateY(0px);
+     -moz-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+       -o-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+/* IE can just show/hide with no transition */
+.lte8 .wrapper .tooltip {
+  display: none;
+}
+
+.lte8 .wrapper:hover .tooltip {
+  display: block;
+}
+
+.submenu{
+  font-size: 14px;
+}
+
+ul.myacount{
+
+}
+ul.myacount li{
+  height: 35px;
+  border-bottom: 1px solid #E8E8E8;
+  list-style: none;
+}
+ul.myacount li a{
+  color:#444444;
+  text-decoration:none;
+  font-size:14px;
+}
+ul.myacount li:hover{
+  background-color: #ddd;
+}
+
+.body_zero{
+  width:1160px;
+  height:30px;
+  border-bottom:2px solid #CCC;
+  display:block;
+}
+.caption{
+  width:225px;
+  height:30px;
+  background-color:#0094da;
+  float:left;
+}
+.tieude{
+  color:#FFF;
+  font-weight:bold;
+  padding-top:5px;
+}
+.contact{
+  float:left;
+  margin-top:10px;
+  margin-left:714px;
+  font-size:15px;
+}
+.bodymyacount{
+  min-height:600px;
+  overflow:hidden;
+  display:block;
+  width:1160px;
+  margin-left:6.4%;
+  margin-top:20px;
+}
+article#body_one{
+  margin-top:20px;
+}
+.body_one_left{
+  float:left;
+}
+.body_one_one{
+  width:222px;
+  height:271px;
+  border:1px solid #ddd;
+}
+.body_one_second{
+  width:222px;
+  height:271px;
+  border:1px solid #ddd;
+  margin-top:20px;
+}
+.body_one_one_caption{
+  width:222px;
+  height:60px;
+  border-bottom:1px solid #ddd;
+}
+.body_one_second_caption{
+  width:222px;
+  height:30px;
+  border-bottom:1px solid #ddd;
+}
+.body_one_second_content
+{
+  width:200px;
+  margin-top:10px;
+  margin-left:10px;
+  color:#5f5d5c;
+  
+}
+.body_one_one_title{
+  font-size:15px;
+  color:#444444;
+  font-weight:bold;
+  padding-top:6px;
+}
+.body_one_two{
+  width:911px;
+  height:auto;
+  float:left;
+  margin-left:20px;
+}
+.body_one_two_caption{
+  width:911px;
+  height:40px;
+  border-bottom:1px solid #ddd;
+}
+.body_one_two_two_contact{
+  width:911px;
+  height:40px;
+  border-bottom:1px solid #ddd;
+}
+.body_one_two_title{
+  font-size:20px;
+  color:#444444;
+  font-weight:bold;
+  padding-top:6px;
+}
+.body_one_two_one{
+  margin-top:10px;
+}
+#registersuccessful{
+  width:911px;
+  height:25px;
+  background-color:#eff5ea;
+  border:1px solid #446423;
+  border-radius:4px;
+  margin-top:10px;
+}
+.body_one_two_two{
+  margin-top:20px;
+  border:1px solid #ddd;
+  margin-bottom: 10px;
+}
+.body_one_two_two_caption{
+  height:35px;
+  margin-left:20px;
+  border-bottom:1px solid #ddd;
+}
+.body_one_two_two_contact{
+  width:350px;
+  margin-left:20px;
+  border-bottom:1px solid #ddd;
+}
+ul.inforcontact{
+  margin-top:0px;
+  list-style: inherit;
+  margin-left: 20px;
+}
+ul.inforcontact li{
+  line-height:25px;
+}
+.changepass{
+  margin-top:0px;
+  margin-left:45px;
+  margin-bottom: 10px;
+  
+}
+.changepass a
+{
+  color:#009dcc;
+  font-size:13px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration:none;
+}
+.changepass a:hover
+{
+  text-decoration:underline;
+}
+
+#inputtitle-2{
+    margin-left: 0px;
+    margin-top: 10px;
+    float: left;
+    width: 150px;
+    padding: 6px 10px;
+    font-size: 12px;
+    line-height: 1.428571429 !important;
+    color: #555;
+    vertical-align: middle !important;
+    background-color: #fff !important;
+    background-image: none !important;
+    border: 1px solid #ddd;
+    border-radius: 3px !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+}
+
+#inputtitle-3{
+    margin-left: 0px;
+    margin-top: 10px;
+    float: left;
+    width: 200px;
+    padding: 6px 10px;
+    font-size: 12px;
+    line-height: 1.428571429 !important;
+    color: #555;
+    vertical-align: middle !important;
+    background-color: #fff !important;
+    background-image: none !important;
+    border: 1px solid #ddd;
+    border-radius: 3px !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+}
+
+#inputtitle-4 {
+    margin-left: 0px;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 12px;
+    line-height: 1.428571429 !important;
+    color: #555;
+    vertical-align: middle !important;
+    background-color: #fff !important;
+    background-image: none !important;
+    border: 1px solid #ddd;
+    border-radius: 3px !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+}
+
+#inputtitle-5 {
+    margin-left: 0px;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 12px;
+    line-height: 1.428571429 !important;
+    color: #555;
+    vertical-align: middle !important;
+    background-color: #fff !important;
+    background-image: none !important;
+    border: 1px solid #ddd;
+    border-radius: 3px !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+}
+
+#source {
+    display: none;
+}
+
+textarea.baoloi {
+    margin-top: 10px;
+    width: 410px!important;
+    height: 80px !important;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    border-radius: 3px;
+    line-height: 20px;
+    padding: 6px;
+    color: #555;
+    font-size: 12px;
+}
+
+
+
+
+

@@ -1,0 +1,55 @@
+.img-mystyle{
+	width:175px;
+	overflow:hidden;
+	float:left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+ 
+.img-mystyle-block2{
+ 	height:auto
+ }
+
+.img-mystyle-block1{
+ 	margin-bottom:10px;
+ 	margin-left:20px;
+ 	float:left
+ }
+
+.img-mystyle img{
+	margin-left:10px; 
+	margin-bottom:10px; 
+	max-width:130px! important; 
+	max-height: 130px !important
+}
+
+#preview1, #preview2, #preview3, #preview4, #preview5, #preview6{
+	width: 80px;
+    height: 95px;
+}
+
+.form-group>label[class*="col-"] {
+    padding-top: 4px;
+    margin-bottom: 4px;
+}
+
+.col-sm-9{
+	    position: relative;
+    min-height: 1px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+
+.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 107px;
+}
